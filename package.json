@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.cjs",
-    "dev": "remix vite:dev",
-    "build": "remix vite:build"
-  },
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview",
+  "start": "node index.cjs"
+},
   "author": "",
   "license": "ISC",
   "description": "",
