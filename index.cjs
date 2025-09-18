@@ -352,9 +352,10 @@ app.delete('/deleteProcedure/:id', async (req, res) => {
     }
 });
 
-mongoose.connect("mongodb://localhost:27017/crud")
+mongoose.connect("MONGODB_URI=mongodb+srv://raymonnekemayou_db_user:X6VSFxnhqxXHrBsF@cluster0.deru1gw.mongodb.net/crud")
 .then(()=>console.log("connect DB"))
 .catch((err)=> console.log(err))
 
 
 app.listen(PORT,()=>console.log("server is running"))
+
