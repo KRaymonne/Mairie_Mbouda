@@ -3,7 +3,7 @@ const { MongoClient, ServerApiVersion } = require('mongodb');
 
 
 // MongoDB connection URI - should be moved to environment variables in production
-const uri = "mongodb+srv://florencemetende:Bovary@08@cluster0.oviap.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+const uri = "MONGODB_URI=mongodb+srv://raymonnekemayou_db_user:X6VSFxnhqxXHrBsF@cluster0.deru1gw.mongodb.net/crud";
 
 // MongoDB client configuration
 const clientOptions = {
